@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="burger-pngrepo-com.png">
+    <link rel="icon" href="img/burger-pngrepo-com.png">
     <title>Burger</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/.css">
    
 </head>
 
@@ -16,32 +16,62 @@
 
 <body>
 
- 
-        <div  class="navbar">
+    <header id="header">
+<div class="smalllogo" >
+<a href="#welcome-section" class="logolink">
+    <h2> <i class="fas fa-code"></i> Burger </h2>
+</a>
+</div>
 
+<button class="nav-toggle">
+    <span class="hamburger"></span>
+</button>
 
+<nav class="nav" id="navbar">
 
-            <ul id="menu">
-                <a href="index.html" class="active">Home<i class="fa fa-fw fa-home"></i></a>
-                <a href="Contact.html">Contact <i class="fa fa-fw fa-envelope"></i></a>
-                <a href="Location.html" >Find us <i class="fa fa-map-marker"></i></a>
-                <a href="About.html" >About us <i class="fa fa-fw fa-user"></i></a>
-              </ul>
-            </div>
- 
+<div class="logo">
+    <a href="nav.html" id="logo">
+        <h1><i class="fas fa-code"  style="font-size: 20px;" ></i>Burger</h1>
+    </a>
+</div>
+
+<ul class="nav_list" id="navlinkitems">
+
+<li class="nav_itme">
+    <a href="#home-section" class="nav_link"  id="home" >Home</a>  
+</li>
+
+<li class="nav_itme">
+    <a href="#about-section" class="nav_link"  id="about" >About</a>  
+</li>
+
+<li class="nav_itme">
+     <a href="#order-section" class="nav_link"  id="order" >Order</a>  
+</li>
+            
+<li class="nav_itme">
+    <a href="#login-section" class="nav_link"  id="login" >Login</a>  
+</li>
+        
+<li class="nav_itme">
+    <a href="#contact-section" class="nav_link"  id="contact" >Contact</a>  
+</li>
+    </ul>
+        </nav>
+             </header>
 
 
 
 <form class="form">
-<h1>Login To Your Account</h1><br>
+<h5>Login To Your Account</h5>
 
-<img src="burger-logo_1366-144.png" class="logo" ><br>
+<img src="img/burger-logo_1366-144.png" class="logo0" ><br>
 
 <input type="text" placeholder="User Name" class="input" ><br><br>
 <input type="password" placeholder="Password" class="input"><br><br>
 
 
-<button type="submit" class="btn" >Login</button>
+<button type="submit" class="btn-grad" >Login</button>
 
 
 
@@ -53,4 +83,9 @@
     Copyright &copy; Burger.LLC. All right Reserved<br>
     Developed by &#64; <a class="ebrahim" href="https://ebrahimalshaibani.github.io/ebrahim/" > Ebrahim Al-Shaibani</a><br>
 </footer>
+<script src="js/navbar0.js"></script>
+
+
+
+
 </html>
